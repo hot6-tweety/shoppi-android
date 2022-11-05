@@ -3,13 +3,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.shoppi.app">
 
-    <application
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+        <application
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="shoppi_android"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Shoppiandroid">
+
         <activity
             android:name=".SplashActivity"
             android:exported="true"

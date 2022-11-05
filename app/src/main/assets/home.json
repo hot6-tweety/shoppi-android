@@ -1,6 +1,6 @@
 {
   "title": {
-    "text": "KTJ님, 이런 상품 어때요?",
+    "text": "KTJ님, 이런 상품\n어때요?",
     "icon_url": "https://user-images.githubusercontent.com/87101944/200016678-c473c405-f4f2-4c85-9859-9562a9ac036e.png"
   },
   "top_banners": [
@@ -32,7 +32,7 @@
         "label": "슬림 데스크 800",
         "discount_rate": 16,
         "price": 160000,
-        "thumbnail_image_url": "https: //user-images.githubusercontent.com/87101944/200016804-00b3ea99-022d-410d-a7e3-6511c76da9dc.png",
+        "thumbnail_image_url": "https://user-images.githubusercontent.com/87101944/200016804-00b3ea99-022d-410d-a7e3-6511c76da9dc.png",
         "product_id": "desk-1"
       }
     }
