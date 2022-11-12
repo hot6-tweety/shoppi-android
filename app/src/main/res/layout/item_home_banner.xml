@@ -73,6 +73,7 @@
             android:layout_height="50dp"
             android:layout_marginStart="12dp"
             android:layout_marginTop="12dp"
+            android:scaleType="centerCrop"
             imageUrl="@{banner.productDetail.thumbnailImageUrl}"
             android:contentDescription="@string/description_home_banner_thumbnail"
             app:layout_constraintStart_toStartOf="@id/bg_banner_product_detail"
