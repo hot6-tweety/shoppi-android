@@ -1,11 +1,11 @@
 {
   "title": {
     "text": "KYJ님, 이런 상품\n어때요?",
-    "icon_url": "https://user-images.githubusercontent.com/87101944/200016678-c473c405-f4f2-4c85-9859-9562a9ac036e.png"
+    "icon_url": "https://user-images.githubusercontent.com/87101944/201515856-d34dca16-30c8-42b9-b550-82ff90f9a9d9.png"
   },
   "top_banners": [
     {
-      "background_image_url": "https://user-images.githubusercontent.com/87101944/200016790-d5408ed5-cf2e-4b15-8d34-c717be476cad.png",
+      "background_image_url": "https://user-images.githubusercontent.com/87101944/201515752-8dd2f6e1-04b8-441f-b9a9-0b74ba17ee5e.png",
       "badge": {
         "label": "기획전",
         "background_color": "#52514d"
@@ -16,12 +16,12 @@
         "label": "캐시미어 100% 터틀넥 스웨터",
         "discount_rate": 9,
         "price": 102000,
-        "thumbnail_image_url": "https://user-images.githubusercontent.com/87101944/200016806-a5e18e4e-3e88-40f4-a6a3-aab0299c3328.png",
+        "thumbnail_image_url": "https://user-images.githubusercontent.com/87101944/201515755-9496d78b-774e-463f-a553-b3a70f09d057.png",
         "product_id": "FW-twg-sweater-1"
       }
     },
     {
-      "background_image_url": "https://user-images.githubusercontent.com/87101944/200016801-6546ab1e-2535-4934-b811-7de01645d4d1.png",
+      "background_image_url": "https://user-images.githubusercontent.com/87101944/201515756-79fb28ed-6dfa-4945-8a53-ab0aa8895941.png",
       "badge": {
         "label": "기획전",
         "background_color": "#967a6d"
@@ -32,7 +32,7 @@
         "label": "슬림 데스크 800",
         "discount_rate": 16,
         "price": 160000,
-        "thumbnail_image_url": "https://user-images.githubusercontent.com/87101944/200016804-00b3ea99-022d-410d-a7e3-6511c76da9dc.png",
+        "thumbnail_image_url": "https://user-images.githubusercontent.com/87101944/201515757-3bee2301-8861-4097-aa33-5cd3dbe28ff3.png",
         "product_id": "desk-1"
       }
     }

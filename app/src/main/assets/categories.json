@@ -1,75 +1,75 @@
 {
   "categories": [
     {
-      "category_id": "fashion-femail",
+      "category_id": "fashion_femail",
       "label": "여성패션",
-      "thumbnail_image_url": "https://user-images.githubusercontent.com/87101944/201453436-affec937-aeb1-4baa-b1fc-a8629a488ae6.jpg",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/87101944/201515948-16000c8a-8a82-43c0-999d-6fd7a508787e.jpg",
       "updated": false
     },
     {
-      "category_id": "fashion-male",
+      "category_id": "fashion_male",
       "label": "남성패션",
-      "thumbnail_image_url": "https://user-images.githubusercontent.com/87101944/201453427-4f8c75c4-2ddf-4157-ad0c-75169dcdceb3.jpg",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/87101944/201515940-343ea572-4ce1-4255-a1f0-65b6ff583908.jpg",
       "updated": false
     },
     {
       "category_id": "kids",
       "label": "유아동",
-      "thumbnail_image_url": "https://user-images.githubusercontent.com/87101944/201453412-843dcb15-531b-4274-ac5b-e7d54a87f5bf.jpg",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/87101944/201515927-67332c0b-88ba-4fcc-952b-8aca1f560220.jpg",
       "updated": false
     },
     {
       "category_id": "electronics",
       "label": "가전/디지털",
-      "thumbnail_image_url": "https://user-images.githubusercontent.com/87101944/201453422-23362e05-304e-43a2-8e6b-f5bf149949b7.jpg",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/87101944/201515936-1fd63cee-fa33-46d9-acce-636c4c205a71.jpg",
       "updated": false
     },
     {
       "category_id": "furniture",
       "label": "가구/인테리어",
-      "thumbnail_image_url": "https://user-images.githubusercontent.com/87101944/201453426-799d7286-c0b0-4b3b-8442-9dc931673b4d.jpg",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/87101944/201515939-e49abb7f-4375-4c9b-99d2-28ddc7b14f8d.jpg",
       "updated": true
     },
     {
       "category_id": "sports",
       "label": "스초프/레저",
-      "thumbnail_image_url": "https://user-images.githubusercontent.com/87101944/201453434-bec296e3-6daa-43de-8e78-0689df3b6b8a.jpg",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/87101944/201515947-0d0a83a8-89a7-4077-b144-0a0fc6034c53.jpg",
       "updated": false
     },
     {
       "category_id": "books",
       "label": "도서/음반",
-      "thumbnail_image_url": "https://user-images.githubusercontent.com/87101944/201453416-05f6fe22-3e1a-4d0d-9e10-03f120174e79.jpg",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/87101944/201515931-b895ca22-63a4-45f4-8379-c447f6f5bb35.jpg",
       "updated": false
     },
     {
       "category_id": "pets",
       "label": "반려동물",
-      "thumbnail_image_url": "https://user-images.githubusercontent.com/87101944/201453430-7eb23def-2c3b-4e1d-8df9-3ca28e5216d6.jpg",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/87101944/201515942-e9485c47-ba49-4c04-98ae-3bac1404ee53.jpg",
       "updated": false
     },
     {
       "category_id": "car",
       "label": "자동차",
-      "thumbnail_image_url": "https://user-images.githubusercontent.com/87101944/201453419-7a5e15e5-0024-4398-8064-e5422fd8ff98.jpg",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/87101944/201515932-d1acf774-713c-4a59-a3fe-bc5eba89bf05.jpg",
       "updated": false
     },
     {
-      "category_id": "fancy-goods",
+      "category_id": "fancy_goods",
       "label": "잡화",
-      "thumbnail_image_url": "https://user-images.githubusercontent.com/87101944/201453431-0fec918d-f3b3-42eb-954f-2cfd34a50dae.jpg",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/87101944/201515945-34936a50-3893-4682-a5bf-da36f08affbe.jpg",
       "updated": false
     },
     {
       "category_id": "food",
       "label": "식품",
-      "thumbnail_image_url": "https://user-images.githubusercontent.com/87101944/201453424-4bb98ab6-5bb2-4edb-86b6-563a48770122.jpg",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/87101944/201515938-fe215253-db3f-4025-b3c0-1746cac8e5b2.jpg",
       "updated": false
     },
     {
       "category_id": "beauty",
       "label": "뷰티",
-      "thumbnail_image_url": "https://user-images.githubusercontent.com/87101944/201453415-135c7832-a1a7-472c-a6a6-cf11508a587e.jpg",
+      "thumbnail_image_url": "https://user-images.githubusercontent.com/87101944/201515929-1dabdcf2-df45-446b-9fde-f852d33912dd.jpg",
       "updated": true
     }
   ]
