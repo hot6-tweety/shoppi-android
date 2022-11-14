@@ -1,3 +1,5 @@
+package com.shoppi.app.ui.category
+
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -10,8 +12,6 @@ import com.shoppi.app.R
 import com.shoppi.app.common.KEY_CATEGORY_ID
 import com.shoppi.app.common.KEY_CATEGORY_LABEL
 import com.shoppi.app.databinding.FragmentCategoryBinding
-import com.shoppi.app.ui.category.CategoryAdapter
-import com.shoppi.app.ui.category.CategoryViewModel
 import com.shoppi.app.ui.common.EventObserver
 import com.shoppi.app.ui.common.ViewModelFactory
 
@@ -53,9 +53,11 @@ class CategoryFragment : Fragment() {
     }
 
     private fun openCategoryDetail(categoryId: String, categoryLabel: String) {
-        findNavController().navigate(R.id.action_category_to_category_detail, bundleOf(
-            KEY_CATEGORY_ID to categoryId,
-            KEY_CATEGORY_LABEL to categoryLabel
-        ))
+        findNavController().navigate(
+            R.id.action_category_to_category_detail, bundleOf(
+                KEY_CATEGORY_ID to categoryId,
+                KEY_CATEGORY_LABEL to categoryLabel
+            )
+        )
     }
 }
