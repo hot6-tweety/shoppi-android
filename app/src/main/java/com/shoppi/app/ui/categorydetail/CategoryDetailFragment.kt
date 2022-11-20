@@ -5,12 +5,15 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.ConcatAdapter
 import com.shoppi.app.common.KEY_CATEGORY_LABEL
 import com.shoppi.app.databinding.FragmentCategoryDetailBinding
+import com.shoppi.app.ui.common.ViewModelFactory
 
 class CategoryDetailFragment : Fragment() {
     private lateinit var binding: FragmentCategoryDetailBinding
+    private val viewModel: CategoryDetailViewModel by viewModels { ViewModelFactory(requireContext()) }
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -41,5 +44,9 @@ class CategoryDetailFragment : Fragment() {
         val titleAdapter = CategorySectionTitleAdapter()
         val promotionAdapter = CategoryPromotionAdapter()
         binding.rvCategoryDetail.adapter = ConcatAdapter(titleAdapter, promotionAdapter)
+        viewModel.promotions.observe(viewLifecycleOwner) { promotions ->
+            titleAdapter.submitList(listOf(promotions.title))
+            promotionAdapter.submitList(promotions.items)
+        }
     }
 }
