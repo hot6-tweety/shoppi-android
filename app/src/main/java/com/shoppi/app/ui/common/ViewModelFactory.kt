@@ -19,6 +19,7 @@ import java.lang.IllegalArgumentException
 class ViewModelFactory(private val context: Context): ViewModelProvider.Factory {
     override fun <T : ViewModel> create(modelClass: Class<T>): T {
         return when {
+            // isAssignableFrom 객체 타입이 맞는지 확인
             modelClass.isAssignableFrom(HomeViewModel::class.java) -> {
                 val repository = HomeRepository(HomeAssetDataSource(AssetLoader(context)))
                 HomeViewModel(repository) as T

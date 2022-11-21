@@ -19,6 +19,7 @@ class HomeViewModel(private val homeRepository: HomeRepository): ViewModel() {
         loadHomeData()
     }
 
+    // Repository 에 HomeData 요청
     private fun loadHomeData() {
         val homeData = homeRepository.getHomeData()
         homeData?.let { homeData ->

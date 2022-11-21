@@ -18,19 +18,21 @@ class HomeBannerAdapter :
         return HomeBannerViewHolder(binding)
     }
 
+    // HomeBannerViewHolder(binding) 가 잘 전달이 되면 holder 인자를 전달해줌
     override fun onBindViewHolder(holder: HomeBannerViewHolder, position: Int) {
+        // 해당 position 에 데이터타입을 반환해줌
         holder.bind(getItem(position))
     }
 
     class HomeBannerViewHolder(private val binding: ItemHomeBannerBinding) : RecyclerView.ViewHolder(binding.root) {
-
+        // 바인딩할 데이터 객체
         fun bind(banner: Banner) {
             binding.banner = banner
             binding.executePendingBindings()
         }
     }
 }
-
+// ListAdapter 에 순차적으로 바인딩할 데이터를 서로 구분하는 기준을 정함
 class BannerDiffCallback : DiffUtil.ItemCallback<Banner>() {
     override fun areItemsTheSame(oldItem: Banner, newItem: Banner): Boolean {
         return oldItem.productDetail.productId == newItem.productDetail.productId
