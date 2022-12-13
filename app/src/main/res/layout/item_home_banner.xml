@@ -17,14 +17,23 @@
         <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/iv_banner_image"
             imageUrl="@{banner.backgroundImageUrl}"
-            app:shapeAppearanceOverlay="@style/Circle.r12"
             android:layout_width="312dp"
             android:layout_height="343dp"
             android:layout_marginStart="16dp"
             android:contentDescription="@string/description_home_banner_image"
             android:scaleType="centerCrop"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearanceOverlay="@style/Circle.r12" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="202dp"
+            android:background="@drawable/background_gradient"
+            app:layout_constraintBottom_toBottomOf="@id/iv_banner_image"
+            app:layout_constraintEnd_toEndOf="@id/iv_banner_image"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@id/iv_banner_image" />
 
         <TextView
             android:id="@+id/tv_banner_badge"
@@ -44,25 +53,18 @@
             app:layout_constraintStart_toStartOf="@id/iv_banner_image"
             tools:background="@color/shoppi_grey_02"
             tools:text="기획전" />
-        <View
-            android:layout_width="0dp"
-            android:layout_height="202dp"
-            android:background="@drawable/background_gradient"
-            app:layout_constraintStart_toStartOf="@id/iv_banner_image"
-            app:layout_constraintEnd_toEndOf="@id/iv_banner_image"
-            app:layout_constraintBottom_toBottomOf="@id/iv_banner_image"
 
-            />
+
+
         <TextView
             android:id="@+id/tv_banner_title"
-            style=""
+            style="@style/TextHeadline32.White.Bold"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
             android:layout_marginEnd="24dp"
             android:layout_marginBottom="24dp"
             android:text="@{banner.label}"
-            android:textAppearance="@style/TextHeadline32.White.Blod"
             app:layout_constraintBottom_toTopOf="@id/bg_banner_product_detail"
             app:layout_constraintEnd_toEndOf="@id/iv_banner_image"
             app:layout_constraintStart_toStartOf="@id/iv_banner_image"
@@ -70,7 +72,7 @@
 
         <View
             android:id="@+id/bg_banner_product_detail"
-            android:layout_width="288dp"
+            android:layout_width="0dp"
             android:layout_height="85dp"
             android:layout_marginStart="12dp"
             android:layout_marginEnd="12dp"
@@ -83,14 +85,14 @@
         <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/iv_banner_detail_thumbnail"
             imageUrl="@{banner.productDetail.thumbnailImageUrl}"
-            app:shapeAppearanceOverlay="@style/Circle.r8"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginStart="12dp"
             android:layout_marginTop="12dp"
             android:contentDescription="@string/description_home_banner_thumbnail"
             app:layout_constraintStart_toStartOf="@id/bg_banner_product_detail"
-            app:layout_constraintTop_toTopOf="@id/bg_banner_product_detail" />
+            app:layout_constraintTop_toTopOf="@id/bg_banner_product_detail"
+            app:shapeAppearanceOverlay="@style/Circle.r8" />
 
         <TextView
             android:id="@+id/tv_banner_detail_brand_label"
@@ -150,8 +152,8 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="4dp"
             android:layout_marginBottom="1dp"
-            android:textAppearance="@style/TextCaption1.Grey05"
             android:background="@drawable/background_strike_through"
+            android:textAppearance="@style/TextCaption1.Grey05"
             app:layout_constraintBottom_toBottomOf="@id/tv_banner_detail_product_discount_price"
             app:layout_constraintStart_toEndOf="@id/tv_banner_detail_product_discount_price"
             tools:text="100,000원" />

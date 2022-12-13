@@ -23,7 +23,7 @@
         <item name="android:textColor">@color/shoppi_white</item>
     </style>
 
-    <style name="TextHeadline32.White.Blod">
+    <style name="TextHeadline32.White.Bold">
         <item name="android:textStyle">bold</item>
     </style>
 

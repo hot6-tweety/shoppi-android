@@ -19,7 +19,7 @@ fun loadCircleImage(view: ImageView, imageUrl: String?) {
     if (!imageUrl.isNullOrEmpty()) {
         GlideApp.with(view)
             .load(imageUrl)
-            .circleCrop()
+            .circleCrop() // 이미지를 원형으로 렌더링
             .into(view)
     }
 }
